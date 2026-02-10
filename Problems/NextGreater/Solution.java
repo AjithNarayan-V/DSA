@@ -9,7 +9,7 @@ public class Solution {
 
         // Traverse nums2 from right to left
         for (int i = nums2.length - 1; i >= 0; i--) {
-            int current = nu ms2[i];
+            int current = nums2[i];
 
             while (!stack.isEmpty() && stack.peek() <= current) {
                 stack.pop();
